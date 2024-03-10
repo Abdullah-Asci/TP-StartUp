@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 2%;
+	margin: 0;
+	color: #fff;
+}
+
+body {
+    background-image: url('https://img1.wallspic.com/crops/7/4/1/7/5/157147/157147-degrade_de_couleur-le_degrade_de_couleur-couleur-brown-purple-1920x1080.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+
+header h1 {  
+    margin-right: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color:#fff;
+}
+nav .profile h1 {
+	margin-left: 10px;
+	font-size: 20px;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+    margin-left: 70%;
+    font-size: 20px;
+}
+nav ul li {
+	margin-left: 35px;
+	cursor: pointer;
+}
+
+li a {
+	color: #ffffff;
+}
+
+.page-content {
+	margin: 4%;
+}
+.page-content header {
+	margin-top: 15%;
+	max-width: 80%;
+	color: #fff;
+	margin-left: 5%;
+}
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+	color: #fff;
+    font-size: 35px;
+	margin-left: 5%;
+}
+
+.page-content header p {
+    font-size: 20px;
+    margin-left: 4%;
+    margin-top: 40%;
+	line-height: 30px;
+	color: rgb(255, 255, 255)
+}
+
+.page-content .description {
+    margin-left: 4%;
+    margin-top: -35%;
+    max-width: 60%;
+    line-height: 30px;
+	color: #fff;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.page-content .description div {
+    margin-top: 40%;
+    margin: 40px;
+}
+
+.page-content .services ul {
+    margin-left: 4%;
+}
+
+footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+	nav {
+		justify-content: center;
+	}
+	nav ul {
+		display: none;
+	}
+
+	.page-content header {
+		margin-top: 10%;
+		max-width: 100%;
+	}
+	.page-content .projects-section {
+		margin-top: 15%;
+	}
+	.page-content .projects-section h1 {
+		font-size: 1.5em;
+	}
+	.page-content .projects-section .project {
+		margin-right: 0;
+		margin-bottom: 20px;
+		max-width: 100%;
+	}
+	.page-content .projects-section .project .description {
+		font-size: 13px;
+	}
+
+	footer {
+		justify-content: flex-start;
+	}
+	footer .column {
+		width: 80%;
+	}
+}
