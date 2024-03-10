@@ -3,39 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulting Informatique</title>
-    <link rel="stylesheet" href="style.css">
+    <title>HBA Consulting</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
-<body>
-    <header>
-        <h1>HBA Consulting Informatique</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="org.html">Organigramme</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>			
-    </nav>
+    <body>
+        <header>
+            <h1>HBA Consulting Informatique</h1>
+        </header>
+        <nav>
+            <div class="profile">
+                <img src="images/logo.jpg" alt="logo" />
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="org.html">Organigramme</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>			
+        </nav>
     
-    <section id="contact">
-        <h2>Contactez-nous</h2>
-        <p>Vous avez une question ou besoin d'un devis ? Contactez-nous :</p>
-        <form action="#" method="post">
-            <label for="name">Nom :</label><br>
-            <input type="text" id="name" name="name"><br>
-            <label for="firstname">Prenom :</label><br>
-            <input type="text" id="firstname" firstname="firstname"><br>
-            <label for="email">Email :</label><br>
-            <input type="email" id="email" name="email"><br>
-            <label for="message">Message :</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Envoyer">
-        </form>
-    </section>
-    <footer>
-        <p>&copy; 2024 Consulting Informatique. Tous droits réservés.</p>
-    </footer>
-</body>
+        <section class="contact">
+            <h2>Contactez-nous</h2>
+            <p>Vous avez une question ou besoin d'un devis ? Contactez-nous :</p>
+            <form action="#" method="post">
+                <label for="name">Nom de l'entreprise :</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="firstname">SIRET :</label><br>
+                <input type="text" id="firstname" firstname="firstname"><br>
+                <label for="email">Email :</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="message">Message :</label><br>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2024 HBA Consulting Informatique. Tous droits réservés.</p>
+        </footer>
+    </body>
 </html>

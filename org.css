@@ -17,26 +17,35 @@ body {
 nav {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between; 
+	justify-content: space-between;
 	align-items: center;
 	position: sticky;
 	top: 0;
-    color: #000;
 }
-
 nav ul {
 	display: flex;
 	list-style-type: none;
     margin-left: 50%;
     font-size: 20px;
-    color: #000;
 }
-
 nav ul li {
 	margin-left: 35px;
 	cursor: pointer;
 	margin-top: -120px;
-    color: #000;
+}
+
+nav .profile img {
+	width: 250px;
+	height: 200px;
+	border-radius: 100%;
+	margin-top: 10%;
+}
+
+.page-content img {
+	width: 950px;
+	height: 800px;
+	margin-top: -19%;
+    margin-left: 20%;
 }
 
 li a {
@@ -44,18 +53,23 @@ li a {
 	color:#000;
 }
 
-nav .profile img {
-	width: 250px;
-	height: 200px;
-	border-radius: 100%;
-    margin-top: -25%;
+.page-content {
+	margin: 4%;
 }
-
-.contact {
-	margin-top: 10%;
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+	color:#000;
+	margin-left: 5%;
+}
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+	color:#000;
+    font-size: 35px;
 	margin-bottom: 20%;
-	margin-left: 38%;
-    color: #000;
 }
 
 footer {
@@ -67,7 +81,11 @@ footer {
 	background-color: #000;
 	color: white;
 }
-
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
 footer .colonne p:hover {
 	color: #fff;
 }
