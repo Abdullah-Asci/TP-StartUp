@@ -27,7 +27,7 @@ nav {
 nav ul {
 	display: flex;
 	list-style-type: none;
-    margin-left: 50%;
+    margin-left: 35%;
     font-size: 20px;
     color: #000;
 }

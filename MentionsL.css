@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&family=Oswald:wght@300&display=swap');
+
+body {
+	font-family: 'Noto Sans JP', sans-serif;
+	padding: 0 2%;
+	margin: 0;
+	color: #fff;
+}
+
+body {
+	background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+}
+nav ul {
+	display: flex;
+	list-style-type: none;
+    margin-left: 35%;
+    font-size: 20px;
+}
+nav ul li {
+	margin-left: 35px;
+	cursor: pointer;
+	margin-top: -120px;
+}
+
+
+li a {
+	margin-left: 80px;
+	color:#000;
+}
+nav .profile img {
+	width: 250px;
+	height: 200px;
+	border-radius: 100%;
+	margin-top: 10%;
+}
+
+.page-content {
+	margin: 4%;
+}
+.page-content header {
+	margin-top: 5%;
+	max-width: 80%;
+	color:#000;
+	margin-left: 5%;
+}
+
+
+.page-content header h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-size: 3vw;
+	color:#000;
+    font-size: 35px;
+	margin-bottom: 20%;
+}
+.page-content header p {
+	line-height: 30px;
+	color: rgb(0, 0, 0);
+	margin-top: -15%;
+}
+.page-content .presentation-image {
+	margin-top: 5%;
+    margin-left: 30%;
+    width: 50%;
+    margin-bottom: 10%;
+}
+
+.page-content .presentation .button {
+    background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	cursor: pointer;
+    margin-top: 5%;
+    margin-left: 29%;
+}
+
+.page-content .presentation .button2 {
+    background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	cursor: pointer;
+    margin-top: 5%;
+    margin-left: 33%;
+}
+
+.page-content .presentation .button3 {
+    background-color: inherit;
+	border: none;
+	outline: none;
+	padding: 0;
+	font-size: 15px;
+	font-weight: bold;
+	padding-bottom: 5px;
+	cursor: pointer;
+    margin-top: 5%;
+    margin-left: 29%;
+}
+
+
+footer {
+	margin-top: 5%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
+	background-color: #000;
+	color: white;
+}
+footer .colonne p {
+	font-size: 12px;
+	color: #ccc;
+	cursor: pointer;
+}
+footer .colonne p:hover {
+	color: #fff;
+}
