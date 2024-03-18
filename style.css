@@ -62,7 +62,8 @@ nav .profile img {
 	font-size: 3vw;
 	color:#000;
     font-size: 35px;
-	margin-bottom: 20%;
+	margin-bottom: 20%;	
+	text-decoration: underline;
 }
 .page-content header p {
 	line-height: 30px;
@@ -88,6 +89,13 @@ nav .profile img {
 	color: #000;
 }
 
+.page-content .dernierpara div {
+    margin-top: 13%;
+    margin: 40px;
+	margin-left: 5%;
+	color: #000;
+	max-width: 850px;
+}
 footer {
 	margin-top: 15%;
 	display: flex;
